@@ -1,0 +1,30 @@
+{
+  "name": "score_keeper",
+  "version": "1.0.0",
+  "description": "Score-keeping app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trishymay/score_keeper.git"
+  },
+  "keywords": [
+    "game",
+    "score",
+    "keeper"
+  ],
+  "author": "Tricia Buckenberger <tbuckenberger@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trishymay/score_keeper/issues"
+  },
+  "homepage": "https://github.com/trishymay/score_keeper#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.2.5",
+    "morgan": "^1.6.1"
+  }
+}
